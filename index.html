@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practica SASS</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar d-flex justify-content-space-between align-itmes-center">
+        <img src="logo.png" alt="logo">
+        <ul class="menu d-flex justify-content-space-between align-itmes-center">
+          <li><a href="#" class="active">Inicio</a></li>
+          <li><a href="#">Suscribirse</a></li>
+          <li><button class="btn btn-primary">Undefined Academy</button></li>
+          <li><button class="btn btn-secondary">Discord</button></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section class="main-article d-flex p-16 gap-col-16">
+      <img class="w-50" src="https://unsplash.it/640/424?random" alt="">
+      <div class="main-article-body d-flex flex-direction-column justify-content-space-between">
+        <div class="tags">
+          <a href="#" class="tag">HTML</a>
+          <a href="#" class="tag">CSS</a>
+        </div>
+        <h1 class="heading-xl py-4">Evolución de las Arquitecturas y Metodologías de CSS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ad id, fugiat saepe porro eius excepturi. Nobis, inventore iste sit vel amet, voluptas molestias autem consequatur ullam qui aliquam quod.</p>
+        <a href="#">Leer artículo</a>
+      </div>
+    </section>
+
+    <div class="d-flex justify-content-flex-end">
+      <a href="#">flecha</a>
+      <a href="#">flecha</a>
+    </div>
+
+    <section class="post-list-container">
+      <nav class="d-flex justify-content-space-between align-itmes-center">
+        <ul class="d-flex">
+          <li><a href="#">Todos</a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">Javascript</a></li>
+          <li><a href="#">Web components</a></li>
+          <li><a href="#">Sistemas de diseño</a></li>
+        </ul>
+        <input type="search" placeholder="Buscar">
+      </nav>
+      <div class="card-list gap-col-4 gap-row-8">
+        <article class="card">
+          <div class="card-header">
+            <img src="https://unsplash.it/640/425?random" alt="">
+          </div>
+          <div class="card-body">
+            <div class="tags">
+              <a href="#" class="tag">Web components</a>
+              <a href="#" class="tag">CSS</a>
+            </div>
+            <h3>Estático, dinámico, single-page, multiple-page y JAMstack</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore obcaecati cum vitae tenetur ullam a quae asperiores, provident iure doloremque. Quod beatae earum quia quam facilis voluptatibus, aliquam minima!</p>
+          </div>
+          <div class="card-footer">
+            <div class="author">
+              <img src="..." alt="">
+              <span>Guillermo Rodas</span>
+            </div>
+            <div class="reading-time">
+              7 min lectura
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="post-header">
+            <img src="https://unsplash.it/640/425?random" alt="">
+          </div>
+          <div class="card-body">
+            <div class="tags">
+              <a href="#" class="tag">Web components</a>
+              <a href="#" class="tag">CSS</a>
+            </div>
+            <h3>Estático, dinámico, single-page, multiple-page y JAMstack</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore obcaecati cum vitae tenetur ullam a quae asperiores, provident iure doloremque. Quod beatae earum quia quam facilis voluptatibus, aliquam minima!</p>
+          </div>
+          <div class="card-footer">
+            <div class="author">
+              <img src="..." alt="">
+              <span>Guillermo Rodas</span>
+            </div>
+            <div class="reading-time">
+              7 min lectura
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="post-header">
+            <img src="https://unsplash.it/640/425?random" alt="">
+          </div>
+          <div class="card-body">
+            <div class="tags">
+              <a href="#" class="tag">Web components</a>
+              <a href="#" class="tag">CSS</a>
+            </div>
+            <h3>Estático, dinámico, single-page, multiple-page y JAMstack</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore obcaecati cum vitae tenetur ullam a quae asperiores, provident iure doloremque. Quod beatae earum quia quam facilis voluptatibus, aliquam minima!</p>
+          </div>
+          <div class="card-footer">
+            <div class="author">
+              <img src="..." alt="">
+              <span>Guillermo Rodas</span>
+            </div>
+            <div class="reading-time">
+              7 min lectura
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="post-header">
+            <img src="https://unsplash.it/640/425?random" alt="">
+          </div>
+          <div class="card-body">
+            <div class="tags">
+              <a href="#" class="tag">Web components</a>
+              <a href="#" class="tag">CSS</a>
+            </div>
+            <h3>Estático, dinámico, single-page, multiple-page y JAMstack</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore obcaecati cum vitae tenetur ullam a quae asperiores, provident iure doloremque. Quod beatae earum quia quam facilis voluptatibus, aliquam minima!</p>
+          </div>
+          <div class="card-footer">
+            <div class="author">
+              <img src="..." alt="">
+              <span>Guillermo Rodas</span>
+            </div>
+            <div class="reading-time">
+              7 min lectura
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="post-header">
+            <img src="https://unsplash.it/640/425?random" alt="">
+          </div>
+          <div class="card-body">
+            <div class="tags">
+              <a href="#" class="tag">Web components</a>
+              <a href="#" class="tag">CSS</a>
+            </div>
+            <h3>Estático, dinámico, single-page, multiple-page y JAMstack</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore obcaecati cum vitae tenetur ullam a quae asperiores, provident iure doloremque. Quod beatae earum quia quam facilis voluptatibus, aliquam minima!</p>
+          </div>
+          <div class="card-footer">
+            <div class="author">
+              <img src="..." alt="">
+              <span>Guillermo Rodas</span>
+            </div>
+            <div class="reading-time">
+              7 min lectura
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="post-header">
+            <img src="https://unsplash.it/640/425?random" alt="">
+          </div>
+          <div class="card-body">
+            <div class="tags">
+              <a href="#" class="tag">Web components</a>
+              <a href="#" class="tag">CSS</a>
+            </div>
+            <h3>Estático, dinámico, single-page, multiple-page y JAMstack</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore obcaecati cum vitae tenetur ullam a quae asperiores, provident iure doloremque. Quod beatae earum quia quam facilis voluptatibus, aliquam minima!</p>
+          </div>
+          <div class="card-footer">
+            <div class="author">
+              <img src="..." alt="">
+              <span>Guillermo Rodas</span>
+            </div>
+            <div class="reading-time">
+              7 min lectura
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="post-header">
+            <img src="https://unsplash.it/640/425?random" alt="">
+          </div>
+          <div class="card-body">
+            <div class="tags">
+              <a href="#" class="tag">Web components</a>
+              <a href="#" class="tag">CSS</a>
+            </div>
+            <h3>Estático, dinámico, single-page, multiple-page y JAMstack</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore obcaecati cum vitae tenetur ullam a quae asperiores, provident iure doloremque. Quod beatae earum quia quam facilis voluptatibus, aliquam minima!</p>
+          </div>
+          <div class="card-footer">
+            <div class="author">
+              <img src="..." alt="">
+              <span>Guillermo Rodas</span>
+            </div>
+            <div class="reading-time">
+              7 min lectura
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="post-header">
+            <img src="https://unsplash.it/640/425?random" alt="">
+          </div>
+          <div class="card-body">
+            <div class="tags">
+              <a href="#" class="tag">Web components</a>
+              <a href="#" class="tag">CSS</a>
+            </div>
+            <h3>Estático, dinámico, single-page, multiple-page y JAMstack</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore obcaecati cum vitae tenetur ullam a quae asperiores, provident iure doloremque. Quod beatae earum quia quam facilis voluptatibus, aliquam minima!</p>
+          </div>
+          <div class="card-footer">
+            <div class="author">
+              <img src="..." alt="">
+              <span>Guillermo Rodas</span>
+            </div>
+            <div class="reading-time">
+              7 min lectura
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div>
+        <p>Suscríbete para estar actualizado</p>
+        <input type="email" placeholder="Email">
+        <button>Suscribirse</button>
+        <a href="#">Undefined Shell 2022</a>
+      </div>
+      <div>
+        <a href="#">item 1</a>
+        <a href="#">item 2</a>
+        <a href="#">item 3</a>
+        <a href="#">item 4</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js" type="module"></script>
+</body>
+</html>

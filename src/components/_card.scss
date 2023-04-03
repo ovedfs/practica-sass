@@ -1,0 +1,8 @@
+.card {
+  border: 1px solid #333;
+}
+
+.card:nth-child(4n) {
+  background-color: purple;
+  grid-column: 1 / 4;
+}

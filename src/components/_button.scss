@@ -1,0 +1,30 @@
+// Buttons
+.btn {
+  padding: 1em;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  border-radius: 2px;
+}
+
+.btn-primary {
+  background-color: var(--color-aquarius-600);
+
+  &:hover {
+    background: var(--color-aquarius-700);
+    box-shadow: 0px 6px 10px rgba(44, 159, 175, 0.17);
+  }
+}
+
+.btn-secondary {
+  background-color: var(--color-black-pearl-900);
+
+  &:hover {
+    background: var(--color-black-pearl-800);
+    box-shadow: 0px 6px 10px rgba(27, 38, 44, 0.16);
+  }
+}
